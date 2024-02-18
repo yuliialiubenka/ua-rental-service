@@ -1,13 +1,17 @@
 {
   "files": {
-    "main.css": "/simple-react-template/static/css/main.7acaea2f.css",
-    "main.js": "/simple-react-template/static/js/main.eeee2874.js",
-    "index.html": "/simple-react-template/index.html",
-    "main.7acaea2f.css.map": "/simple-react-template/static/css/main.7acaea2f.css.map",
-    "main.eeee2874.js.map": "/simple-react-template/static/js/main.eeee2874.js.map"
+    "main.css": "/ua-rental-service/static/css/main.5ab06b51.css",
+    "main.js": "/ua-rental-service/static/js/main.f69d40ff.js",
+    "static/media/car-rental-services.png": "/ua-rental-service/static/media/car-rental-services.1ed858fffaa37087262e.png",
+    "static/media/empty-block.png": "/ua-rental-service/static/media/empty-block.1e9bd291e598258229d9.png",
+    "static/media/no-photo.jpg": "/ua-rental-service/static/media/no-photo.3f37e96d8d04d1e67452.jpg",
+    "static/media/wheel.svg": "/ua-rental-service/static/media/wheel.0e8bf65f784b96725ac765433477af1e.svg",
+    "index.html": "/ua-rental-service/index.html",
+    "main.5ab06b51.css.map": "/ua-rental-service/static/css/main.5ab06b51.css.map",
+    "main.f69d40ff.js.map": "/ua-rental-service/static/js/main.f69d40ff.js.map"
   },
   "entrypoints": [
-    "static/css/main.7acaea2f.css",
-    "static/js/main.eeee2874.js"
+    "static/css/main.5ab06b51.css",
+    "static/js/main.f69d40ff.js"
   ]
 }

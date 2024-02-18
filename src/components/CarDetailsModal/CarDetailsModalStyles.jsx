@@ -133,6 +133,8 @@ export const useStyles = createUseStyles({
         padding: '12px 50px',
         backgroundColor: 'rgb(52, 112, 255)',
         color: '#fff',
+        fontSize: 14,
+        fontWeight: 600,
         textDecoration: 'none',
         borderRadius: 12,
         transition: 'background-color 0.3s ease',

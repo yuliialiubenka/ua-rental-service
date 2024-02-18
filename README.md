@@ -1,105 +1,57 @@
-# React homework template
+# UA Rental Service Application
 
-This project was created with
-[Create React App](https://github.com/facebook/create-react-app). To get
-acquainted and configure additional features
-[refer to documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Welcome to our Car Rental Service Application! This application allows users to browse and rent cars available for rental. Users can explore various car options, filter them according to their preferences, and add their favorite cars to their list.
 
-## Creating a repository by template
+## Features
 
-Use this GoIT repository as a template for creating a repository
-of your project. To use it just tap the `«Use this template»` button and choose
-`«Create a new repository»` option, as you can see on the image below.
+   - *Home Page*: Provides an overview of the services offered by our company.
 
-![Creating repo from a template step 1](./assets/template-step-1.png)
+   ![Home Page](./public/assets/homepage.png)
 
-The page for creating a new repository will open on the next step. Fill out
-the Name field and make sure the repository is public, then click
-`«Create repository from template»` button.
+   - *Catalog Page*: Displays a catalog of cars available for rental, where users can filter cars by brand.
 
-![Creating repo from a template step 2](./assets/template-step-2.png)
+   ![Catalog Page](./public/assets/catalogpage.png)
 
-You now have a personal project repository, having a repository-template file 
-and folder structure. After that, you can work with it as you would with any 
-other private repository: clone it on your computer, write code, commit, and 
-send it to GitHub.
+   - *Favorites Page*: Allows users to view their favorite cars that they have added while browsing the catalog.
 
-## Preparing for coding
+   ![Favorites Page](./public/assets/favoritespage.png)
 
-1. Make sure you have an LTS version of Node.js installed on your computer.
-   [Download and install](https://nodejs.org/en/) if needed.
-2. Install the project's base dependencies with the `npm install` command.
-3. Start development mode by running the `npm start` command.
-4. Go to [http://localhost:3000](http://localhost:3000) in your browser. This
-   page will automatically reload after saving changes to the project files.
+## Technologies Used
 
-## Deploy
+   - *React*: JavaScript library for building user interfaces.
+   - *Redux*: State management library for managing application state.
+   - *React Router*: Declarative routing for React applications.
+   - *Axios*: Promise-based HTTP client for making requests to the server.
+   - *MockAPI*: Used for creating a mock backend to store and retrieve car data.
+   - *Redux Toolkit*: Official Redux package for improving the development of Redux applications.
+   - *React Redux*: Official integration of Redux with React, helping manage the state of applications.
+   - *Redux Persist*: Library for persisting Redux state in local storage.
+   - *React Icons*: Icon library for use in React applications.
+   - *React JSS*: Library for using JSS (JavaScript Style Sheets) in React.
+   - *Notiflix*: Library for creating notifications in web applications.
+   - *Web Vitals*: Library for measuring key performance indicators of web pages.
 
-The production version of the project will automatically be linted, built, and
-deployed to GitHub Pages, in the `gh-pages` branch, every time the `main` branch
-is updated. For example, after a direct push or an accepted pull request. To do
-this, you need to edit the `homepage` field in the `package.json` file,
-replacing `your_username` and `your_repo_name` with your own, and submit the
-changes to GitHub.
+## Project Structure
 
-```json
-"homepage": "https://your_username.github.io/your_repo_name/"
-```
+   - *src/components*: Contains all React components used in the application.
+   - *src/redux?*: Contains Redux-related files such as actions, reducers, and selectors.
+   - *public*: Contains static assets and the index.html file.
 
-Next, you need to go to the settings of the GitHub repository (`Settings` >
-`Pages`) and set the distribution of the production version of files from the
-`/root` folder of the `gh-pages` branch, if this was not done automatically.
+## Usage
 
-![GitHub Pages settings](./assets/repo-settings.png)
+   - Visit the home page to learn more about our car rental services.
+   - Explore the catalog page to view available cars and filter them based on your preferences.
+   - Add your favorite cars to your favorites list for easy access.
+   - Contact us via the provided phone number for rental inquiries.
 
-### Deployment status
+## Contributing
 
-The deployment status of the latest commit is displayed with an icon next to its
-ID.
+Contributions are welcome! If you'd like to contribute to the project, please follow these steps:
 
-- **Yellow color** - the project is being built and deployed.
-- **Green color** - deployment completed successfully.
-- **Red color** - an error occurred during linting, build or deployment.
+    Fork the repository.
+    Create a new branch for your feature or fix.
+    Make your changes and commit them to your branch.
+    Push your changes to your fork.
+    Submit a pull request to the main repository.
 
-More detailed information about the status can be viewed by clicking on the
-icon, and in the drop-down window, follow the link `Details`.
-
-![Deployment status](./assets/deploy-status.png)
-
-### Live page
-
-After some time, usually a couple of minutes, the live page can be viewed at the
-address specified in the edited `homepage` property. For example, here is a link
-to a live version for this repository
-[https://yuliialiubenka.github.io/simple-react-template](https://yuliialiubenka.github.io/simple-react-template).
-
-If a blank page opens, make sure there are no errors in the `Console` tab
-related to incorrect paths to the CSS and JS files of the project (**404**). You
-most likely have the wrong value for the `homepage` property in the
-`package.json` file.
-
-### Routing
-
-If your application uses the `react-router-dom` library for routing, you must
-additionally configure the `<BrowserRouter>` component by passing the exact name
-of your repository in the `basename` prop. Slashes at the beginning and end of
-the line are required.
-
-```jsx
-<BrowserRouter basename="/your_repo_name/">
-  <App />
-</BrowserRouter>
-```
-
-## How it works
-
-![How it works](./assets/how-it-works.png)
-
-1. After each push to the `main` branch of the GitHub repository, a special
-   script (GitHub Action) is launched from the `.github/workflows/deploy.yml`
-   file.
-2. All repository files are copied to the server, where the project is
-   initialized and linted and built before deployment.
-3. If all steps are successful, the built production version of the project
-   files is sent to the `gh-pages` branch. Otherwise, the script execution log
-   will indicate what the problem is.
+Thank you for using our UA Rental Service Application! If you have any questions or feedback, feel free to reach out to us. Happy renting! 🚗🔑

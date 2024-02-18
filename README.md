@@ -44,6 +44,8 @@ Welcome to our Car Rental Service Application! This application allows users to 
    - Add your favorite cars to your favorites list for easy access.
    - Contact us via the provided phone number for rental inquiries.
 
+   Note: Additionally, the application is adapted for mobile and tablet versions.
+
 ## Contributing
 
 Contributions are welcome! If you'd like to contribute to the project, please follow these steps:

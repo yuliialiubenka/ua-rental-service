@@ -10,11 +10,11 @@ export const useStyles = createUseStyles({
         flex: '1',
         maxWidth: 1224,
         width: '100%',
-        padding: '20px 20px 64px 20px',
+        padding: '20px 20px 30px 20px',
         margin: '0 auto',
 
         '@media screen and (min-width: 768px)': {
-            padding: '30px 20px 150px 20px',
+            padding: '30px 20px 30px 20px',
         },
     },
 });

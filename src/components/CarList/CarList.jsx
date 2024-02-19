@@ -16,11 +16,11 @@ const CarList = () => {
   }
 
   return (
-    <div className={classes.carList}>
+    <ul className={classes.carList}>
       {cars?.map(car => (
         <CarCard key={car.id} car={car} isFavorite={isFavoriteCar(car)} />
       ))}
-    </div>
+    </ul>
   );
 };
 

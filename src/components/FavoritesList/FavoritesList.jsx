@@ -15,11 +15,11 @@ const FavoritesList = ({ visibleCars }) => {
   }
 
   return (
-    <div className={classes.favoritesList}>
+    <ul className={classes.favoritesList}>
       {favoriteCars.slice(0, visibleCars)?.map(car => (
         <CarCard key={car.id} car={car} isFavorite={isFavoriteCar(car)}/>
       ))}
-    </div>
+    </ul>
   );
 };
 

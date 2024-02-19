@@ -1,4 +1,3 @@
-// Header.jsx
 import React, { useState } from 'react';
 import { useStyles } from './HeaderStyles';
 import { Link } from 'react-router-dom';

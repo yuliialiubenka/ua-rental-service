@@ -52,7 +52,7 @@ const CarCard = ({ car, isFavorite }) => {
   };
 
   return (
-    <div className={classes.carCard}>
+    <li className={classes.carCard}>
       <div className={classes.imgWrap}>
         <img className={classes.img} src={img ? img : Image} alt={make}/>
         <FavoriteIcon isFavorite={isFavoriteState} onClick={handleFavoriteToggle} />
@@ -75,7 +75,7 @@ const CarCard = ({ car, isFavorite }) => {
       {isModalOpen && (
         <CarDetailsModal car={car} onClose={handleCloseModal} />
       )}
-    </div>
+    </li>
   );
 };
 

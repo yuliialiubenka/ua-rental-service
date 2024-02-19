@@ -1,4 +1,3 @@
-// FooterStyles.jsx
 import { createUseStyles } from 'react-jss';
 
 export const useStyles = createUseStyles({
@@ -7,6 +6,7 @@ export const useStyles = createUseStyles({
     padding: '20px 0',
     textAlign: 'center',
     width: '100%',
+    boxShadow:'0 -2px 10px rgba(0, 0, 0, 0.5)'
   },
   footerContent: {
     fontSize: 14,

@@ -1,10 +1,10 @@
-// HeaderStyles.jsx
 import { createUseStyles } from 'react-jss';
 
 export const useStyles = createUseStyles({
   header: {
     backgroundColor: '#0B44CD',
-    height: 68
+    height: 68,
+    boxShadow: '0 2px 10px rgba(0, 0, 0, 0.5)',
   },
   container: {
     margin: '0 auto',

@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/ua-rental-service/static/css/main.5ab06b51.css",
-    "main.js": "/ua-rental-service/static/js/main.e3323575.js",
+    "main.js": "/ua-rental-service/static/js/main.8f5fe216.js",
     "static/media/car-rental-services.png": "/ua-rental-service/static/media/car-rental-services.1ed858fffaa37087262e.png",
     "static/media/empty-block.png": "/ua-rental-service/static/media/empty-block.1e9bd291e598258229d9.png",
     "static/media/no-photo.jpg": "/ua-rental-service/static/media/no-photo.3f37e96d8d04d1e67452.jpg",
     "static/media/wheel.svg": "/ua-rental-service/static/media/wheel.0e8bf65f784b96725ac765433477af1e.svg",
     "index.html": "/ua-rental-service/index.html",
     "main.5ab06b51.css.map": "/ua-rental-service/static/css/main.5ab06b51.css.map",
-    "main.e3323575.js.map": "/ua-rental-service/static/js/main.e3323575.js.map"
+    "main.8f5fe216.js.map": "/ua-rental-service/static/js/main.8f5fe216.js.map"
   },
   "entrypoints": [
     "static/css/main.5ab06b51.css",
-    "static/js/main.e3323575.js"
+    "static/js/main.8f5fe216.js"
   ]
 }
